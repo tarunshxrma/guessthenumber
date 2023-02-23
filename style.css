@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: fantasy;
+}
+h1{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 4rem;
+}
+.inp{
+    font-size: 2.7rem;
+}
+.number{
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    position: absolute;
+    top: 180px;
+    left: 595px;
+    color: black;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 5rem;
+    border: 10px ridge gray;
+}
+.container{
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+input[type="number"]{
+    height:70px;
+    width: 200px;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 900;
+    position: absolute;
+    left:50px;
+    border: 7px ridge gray;
+}
+#check{
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    position: absolute;
+    top: 160px;
+    left: 95px;
+    font-weight: 900;
+    border: 5px solid greenyellow;
+}
+#playagain{
+    height: 80px;
+    width: 200px;
+    font-size: 1.3rem;
+    font-weight: 900;
+    position: absolute;
+    left: 550px;
+    top: 520px;
+    border: 5px solid greenyellow;
+}
+.message{
+    font-size: 2.7rem;
+}
+.chance{
+    font-size: 1.4rem;
+}
+.score{
+    font-size: 1.4rem;
+}
+.left{
+    position: absolute;
+    left: 110px;
+    top: 300px;
+}
+.right{
+    position: absolute;
+    left: 900px;
+    top: 260px;
+}

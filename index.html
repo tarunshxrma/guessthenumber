@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>GUESS THE NUMBER</h1>
+    <div class="number">?</div>
+    <div class="container">
+    <div class="left">
+        <span class="inp">ENTER YOUR GUESS :</span><br><br>
+        <input type="number" id="userInput"><br><br>
+        <button type="button" id="check">CHECK</button>
+    </div>
+    <div class="right">
+        <p class="message">START GUESSING . . .</p>
+        <p class="chance">💯 Remaining Chances : <span id="chance">100</span></p>
+        <p class="score">🏆 Score : <span id="score">0</span></p>
+    </div>
+    </div>
+    <button type="button" id="playagain">PLAY AGAIN</button>
+    <script src="./index.js"></script>
+</body>
+</html>
